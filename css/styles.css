@@ -1,0 +1,95 @@
+.container {
+  width: 96%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+header {
+  overflow: hidden;
+  width: 100%;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+header .logo {
+  float: left;
+}
+header .navbar {
+  background-color: white;
+  float: right;
+}
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.bar ul {
+  list-style-type: none;
+  text-align: right;
+}
+.bar li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+.logo {
+  height: 60px;
+  width: 160px;
+}
+.img_perfil {
+  border-radius: 50%;
+  margin-top: -50px;
+}
+.about,
+.experience,
+.education,
+.skills,
+.proyects {
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.experience.education.experience img,
+h4 {
+  display: inline-block;
+}
+h6 {
+  display: inline-block;
+}
+.container_secciones {
+  width: 100%;
+}
+
+.logo_empresa {
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.logo_universidad {
+  height: 60px;
+  width: 60px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+h4,
+h5,
+h6,
+a {
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+}
+/* Barra de progreso*/
+label {
+  padding-right: 10px;
+  font: size 1rem;
+}
